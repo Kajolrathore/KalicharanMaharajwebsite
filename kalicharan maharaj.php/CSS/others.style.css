@@ -1,0 +1,373 @@
+
+
+
+
+
+
+/*--------------------Registration form------------------------------*/
+
+body{
+  background-color: white;
+  
+}
+
+
+.container{
+  width : 100%;
+  height : 100%;
+  font-family : sans-serif;
+  background : white;
+  color : #fff;
+  display : flex;
+  align-items : left;
+  justify-content : center;
+  margin-top: 1%;
+  margin-bottom: 0%;
+}
+
+.card
+{
+width : 450px;
+height : 600px;
+box-shadow : 0 0 40px 20px rgb(0, 0, 0, 0.26);
+}
+
+.inner-box
+{
+position : relative;
+width : 100%;
+height : 100%;
+}
+
+.card-form 
+{
+position : absolute;
+width : 100%;
+height : 100%;
+background-position : center;
+background-size : cover;
+background-color:skyblue;
+backface-visibility : hidden;
+}
+
+
+.card h2
+{
+font-weight : normal;
+font-size : 22px;
+text-align : center;
+margin-bottom : 15px;
+margin-top : 10px;
+} 
+
+.input-box
+{
+width : 80%;
+background :pink;
+border : 1px solid #fff;
+margin : 6px 0;
+height : 32px;
+border-radius : 20px;
+padding : 0 10px;
+box-sizing : border-box;
+outline : none;
+text-align : center;
+color : #fff;
+margin-left : 25px;
+}
+
+
+::placeholder
+{
+color : #fff;
+font-size : 12px;
+}
+
+button 
+{
+width : 80%;
+background : transparent;
+border : 1px solid #fff;
+margin : 35px 0 10px;
+height : 32px;
+font-size : 12px;
+border-radius : 20px;
+padding : 0 10px;
+box-sizing : border-box;
+outline : none;
+text-align : center;
+color : #fff;
+margin-left : 25px;
+cursor : pointer;
+}
+
+
+.submit-btn
+{
+position : relative;
+}
+.submit-btn:hover{
+  background-color: #0099cc;
+  
+  
+}
+.submit-btn::after
+{
+color : #333;
+line-height : 32px;
+width : 32px;
+border : 32px;
+border-radius : 50%;
+background : #fff;
+position : absolute;
+right : -1px;
+top : -1px;
+}
+
+
+.card a 
+{
+color : #fff;
+text-decoration : none;
+display : block;
+text-align : center;
+font-size : 13px;
+}
+
+.Homeicon
+{
+margin : 10% 45%;
+width : 20px; 
+height: 20px;
+cursor : pointer;
+}
+
+.Homicon
+{
+margin : 2% 43%;
+width : 20px; 
+height: 20px;
+cursor : pointer;
+}
+/*-------------------------home page --------------------------*/
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-family: cursive;
+  
+}
+
+html {
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: cursive;
+}
+
+.column {
+  float: center;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  border: #000;
+  font-family: cursive;
+
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.979);
+  margin: 8px;
+  font-family: cursive;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.928);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 0 10px;
+  text-align: center;
+  font-family: cursive;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  font-family: cursive;
+}
+
+.title {
+  color: whitesmoke;
+  font-family: cursive;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-family: cursive;
+}
+
+.button:hover {
+  background-color: rgba(0, 255, 255, 0.817);
+  font-family: cursive;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+    font-family: cursive;
+  }
+}
+
+.text-align:h2{
+  font-family: cursive;
+
+}
+
+/*--------------------------  STORY-->gallery------------------------*/
+
+.main{
+  text-align: center;
+  border: 2px solid white;
+
+}
+
+.main,h1{
+   color:black;
+  
+}
+
+
+
+
+/*------------------ Footer -----------------*/
+.w3-section{
+  -ms-text-align-last:center;
+  padding-left: 1%;
+  background-color: #00000079;
+  color: #ddd;
+  padding-right: 1%;
+  
+
+}
+
+.w3-border{
+  background-color: hsla(0, 23%, 91%, 0.62);
+}
+
+
+
+
+.footer{
+  width: 100%;
+  overflow: auto;
+  height: 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:2px;
+  margin-top: 0px;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.footer h2{
+  color:white;
+  text-align: center;
+  margin-bottom: 5px;
+  text-emphasis-color: rgba(0, 0, 0, 0.661);
+}
+
+     
+.footer .services, .footer .contact{
+  width: 100%;
+  overflow: auto;
+  height: 250px;
+  background-color: #000000fa;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 0px;  
+  /*list-style-type: none; */ 
+  padding: 2px;
+  text-align: center;
+}
+.footer .services.a{
+  color: rgba(0, 0, 0, 0.579);
+}
+
+.services,h2{
+  text-align: center;
+}
+
+
+/*---------------------About-Us>---------------------------*/
+
+
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('Images/s1.jpg');
+  min-height: 100%;
+}
+
+.header#home.w3-container.w3-center{
+  padding: 2px;
+}
+
+
+/* --------------------------Services----------------- */
+
+.Center{
+  background-color:white;
+  border:1px solid black;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+ width: 100%;
+ height: 50px;
+ padding-bottom: 6%;
+
+ 
+}
+
+.Center,h1{
+  text-align: center;
+
+}
+
+/*------------------------- sidebar------------------------ */
+
+
+
+div.content {
+  padding: 1px 16px;
+  height: 100%;
+}
+
+
+.content,img{
+  position:center;
+  text-align: center;
+  
+}
+

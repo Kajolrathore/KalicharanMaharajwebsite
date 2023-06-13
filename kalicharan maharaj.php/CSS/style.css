@@ -1,0 +1,292 @@
+
+
+.logoheader{
+  width: 80%;
+  height: 70px;
+  display: flex;
+  background-color: white;
+  padding: 5px;
+  position: fixed;
+}
+
+.logo{
+  width: 40%;
+  height: 50px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.logoheader .logo img{
+  width: 60px;
+  height: 60px; 
+}
+
+
+.logoheader .advertisement{
+  padding-top: 6px;
+  padding-right: 20px;
+}
+
+.logoheader .advertisement img {
+float: right;
+border: 1px solid #ddd;
+border-radius: 4px;
+width: 750px;
+height: 90px;
+}
+
+
+/*------------------ Main header -----------------*/
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  width: 70%;
+  float:right;
+  padding-top: 10px;
+  height:30px ;
+
+}
+
+.navbar a {
+  float:center;
+  font-size: 14px;
+  color:orange;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  border-right: 1px solid orange;
+  border-width: 1px;
+  
+}
+
+.navbar a:hover{
+  color: yellow;
+}
+
+
+
+
+/*------------------Top header-----------------*/
+
+
+.topheader {
+  width: 40%;
+  height: 30px;
+  overflow: hidden;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/* Social Icon / Left-aligned section inside the top navigation */
+
+.topheader a {    
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 3px 3px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the color of links on hover */
+
+.topheader a:hover {
+  background-color: #ddd;
+  color:orange;
+  border-radius: 30px;
+}
+
+
+/*----------------slider--------*/
+
+.slider{
+    background-image: url(Images/slider2.jpg);
+    height: 22.5rem;
+    width: 100%;
+    background-color:orange;
+    /* opacity: 10.0; */
+    padding-top: 10px;
+}
+
+.slider img{
+    height: 100%;
+    width: 100%;
+    padding-top: 2px;
+}
+
+
+
+/*------------------ Content 3 -----------------*/
+
+.content3{
+  width: 100%;
+  overflow: auto;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 166, 0, 0.907);
+  padding:2px;
+  margin-top: 2px;
+
+}
+
+.content3 h1{
+  color: darkred;
+  text-align: center;
+}
+
+.content3 p{
+  color: black;
+  text-align: justify;
+  margin: 2px;
+}
+
+.content3 .service{
+  width: 100%;
+  overflow: auto;
+  height: 260px;
+  background-color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  margin: 5px;  
+  padding: 4px;
+  border: 1px solid darkred;
+  border-top: 2px solid darkred;;
+}
+
+     
+.content3 .service .content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.content3 .service .content img{
+  width: 80px;
+  height: 100px;
+  margin: 10px;
+}
+
+
+/*------------------ Content 2 -----------------*/
+/*
+.content2{
+  width: 100%;
+  overflow: auto;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding:10px;
+  margin-top: 10px;
+}
+
+.content2 h2{
+  color: darkred;
+  text-align: center;
+}
+
+.content2 .service{
+  width: 100%;
+  overflow: auto;
+  height: 350px;
+  background-color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  margin: 10px;  
+  padding: 20px;
+}
+
+     
+.content2 .service .content{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+  border: 2px solid darkred;
+  padding: 10px;
+}
+
+.content2 .service .content video{
+  margin: auto;
+}
+
+*/
+
+
+/*--------------Grid photos----------------------*/
+
+
+
+* {
+  box-sizing: border-box;
+  
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+  background-color: black;
+}
+
+.header h1{
+  background-color: orange;
+  color:black;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  background-color: orange;
+  color: black;
+  border:2px solid green ;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE10 */
+  flex:100%;
+  max-width: 50%;
+  padding: 0 4px;
+
+}
+
+.column img {
+  margin-top: 3px;
+  vertical-align: middle;
+  width: 100%;
+  border: 2px solid white;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    border: 2px solid white;
+  }
+}
+
